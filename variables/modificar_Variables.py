@@ -23,3 +23,4 @@ print("Mi nombre es:", nombre)
 print("Mi edad es:", edad)
 print("Vivo en:", pais)
 print("¿Juega fútbol?:", juega_futbol)
+
