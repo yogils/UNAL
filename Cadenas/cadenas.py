@@ -47,7 +47,7 @@ print("\n1234123412341234123412341234123412341234")
 cadena6="\tEsto es una prueba de \n\tcadenas en python"
 print(cadena6)
 
-#Imprimir \ deparando textos
+#Imprimir \ separando textos
 print("\nImprimir \ separando textos ")
 cadena7 = "Esto es una prueba de \\cadenas en python"
 print(cadena7)  
