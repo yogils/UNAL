@@ -225,3 +225,14 @@ N = int(input())
 
 for i in range(1, N + 1):
     print(M, "x", i, "=", M * i)"""
+"""#Cultivo de bacterias
+
+individuos = float(input())
+
+horas = 0
+
+while individuos >= 10:
+    individuos = individuos / 2
+    horas += 1
+print(horas)"""
+
