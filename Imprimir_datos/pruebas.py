@@ -236,3 +236,56 @@ while individuos >= 10:
     horas += 1
 print(horas)"""
 
+"""#Cuadrado
+n = int(input())
+l = float(input())
+suma = l* l
+for i in range (n-1):
+    val = float(input())
+    l+=val
+    suma+=l*l
+print(f"Ramon, el area total de la estructura basica del universo es de {round(suma,2)} centimetros cuadrados")
+"""
+#capacidad de carga
+
+"""capacidad_de_carga = float(input())
+bultos = int(input())
+suma = 0
+cantidad = 0
+for i in range(bultos):
+    bultos = float(input())
+    cantidad+=bultos
+    if (cantidad <= capacidad_de_carga):
+        suma =+ 1
+    else:
+        break
+print(f"Caben {suma} bultos de papa")"""
+
+"""n = int(input())
+sum = 17
+print(sum)
+for i in range(1,n+1):
+    if(i%2==1):
+        sum -= 2
+        print(sum)
+    else:
+        sum+=3
+        print(sum)"""
+
+"""n = int(input())
+sum = 0
+for i in range(n):
+    val = int(input())
+    es_primo = True
+
+    if val <= 1:
+        es_primo = False
+    else:
+        for d in range (2, val):
+            if val % d == 0:
+                es_primo = False
+                break
+    if es_primo:
+        sum += 1
+print(sum)
+"""
