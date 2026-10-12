@@ -289,3 +289,97 @@ for i in range(n):
         sum += 1
 print(sum)
 """
+
+"""n = int(input("ingrese numero de vehiculos:"))
+tipo_de_vehiculo = input("ingres el tipo de vehiculo: ")
+velocidad = int(input("a que velocidad iba: "))
+
+moto = 70
+particular = 80
+publico = 60
+grave = 1200000
+leve = 600000
+
+
+
+if tipo_de_vehiculo == "moto" and velocidad >= 90:
+    print(f"Los {n} vehiculos cometieron una infraccion y el total de las multas es: ${n * grave}")
+elif tipo_de_vehiculo == "moto" and velocidad < 90:
+    print(f"Los {n} vehiculos cometieron una infraccion sobrepaso el limite de 70Km pero no supero el limite de 90Km: ${n * leve}")
+elif tipo_de_vehiculo == "particular" and velocidad >= 100:
+    print(f"Los {n} vehiculos cometieron una infraccion y el total de las multas es: ${n * grave}") 
+elif tipo_de_vehiculo == "particular" and velocidad < 100:  
+    print(f"Los {n} vehiculos cometieron una infraccion sobrepaso el limite de 80Km pero no supero el limite de 100Km: ${n * leve}")
+elif tipo_de_vehiculo == "publico" and velocidad >= 60:
+    print(f"Los {n} vehiculos cometieron una infraccion ya que supero el limite de 60Km y es un vehiculo publico: ${n * grave}") 
+else:
+    print(f"felicitaciones eres un conductor responsable y no cometiste ninguna infraccion  ")"""
+
+"""
+#
+n = int(input())
+lista = []
+for _ in range (n):
+    valor = int(input())
+    lista.append(valor)
+lista.sort()
+print(lista)"""
+
+"""#partida de ajedrez
+
+n = int(input())
+i = int(input())
+s = int(input())
+tiempo = []
+for _ in range(n):
+    tiempo.append(int(input())) 
+      
+for i in range(i, s + 1):  
+    cantidad = tiempo.count(i)
+   
+    print(f"{i}: {cantidad}")
+
+  
+"""
+
+#Nota de evaluacion
+"""n = int(input())
+
+n1 = []
+n2 = []
+
+for _ in range (n):
+    n1.append(float(input()))
+
+for _ in range (n):
+    n2.append(float(input()))
+    
+
+
+resultado = []
+ganan_n1 = 0
+ganan_n2 = 0
+igual = 0
+
+for i in range (n):
+    if n1 [i] > n2 [i]:
+       resultado.append(1)
+       ganan_n1 += 1
+
+    elif n2 [i] > n1 [i]:
+        resultado.append(2)
+        ganan_n2 += 1
+
+    else:
+        resultado.append(0)
+        igual += 1
+
+
+porcentaje_n1 = round((ganan_n1 / n) * 100, 1)
+porcentaje_n2 = round((ganan_n2 / n )* 100, 1)
+porcentaje_igual = round((igual / n)* 100, 1)
+
+print(resultado)
+print("Gana 1:", porcentaje_n1)
+print("Gana 2:", porcentaje_n2)
+print("Igual:", porcentaje_igual)"""
