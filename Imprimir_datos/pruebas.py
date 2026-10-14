@@ -342,8 +342,8 @@ for i in range(i, s + 1):
   
 """
 
-#Nota de evaluacion
-"""n = int(input())
+"""#Nota de evaluacion
+n = int(input())
 
 n1 = []
 n2 = []
@@ -371,7 +371,7 @@ for i in range (n):
         ganan_n2 += 1
 
     else:
-        resultado.append(0)
+        resultado.append(1)
         igual += 1
 
 
@@ -383,3 +383,19 @@ print(resultado)
 print("Gana 1:", porcentaje_n1)
 print("Gana 2:", porcentaje_n2)
 print("Igual:", porcentaje_igual)"""
+"""#Resta de numeros
+numero = input()
+
+mayor = int(numero[0])
+menor = int(numero[0])
+
+for digito in numero:
+    valor = int(digito)
+    if valor > mayor:
+        mayor = valor
+    if valor < menor:
+        menor = valor
+
+resultado = mayor - menor
+print(resultado)"""
+
